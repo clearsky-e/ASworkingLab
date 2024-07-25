@@ -46,3 +46,14 @@ window.onload = function () {
       } 
   }, 4000); 
 };
+
+
+
+
+
+
+
+document.getElementById('hamburger').addEventListener('click', function() {
+    var navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('active');
+});
